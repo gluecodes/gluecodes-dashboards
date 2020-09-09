@@ -1,0 +1,45 @@
+.font-weight-normal {
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.table {
+  position: relative;
+}
+
+.table thead{
+  text-transform: capitalize;
+}
+
+.dropdownStateCheckbox {
+  display: none;
+}
+
+.dropdownToggle {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.controls {
+  width: 5%;
+}
+
+.dropdownToggle::after {
+  content: none;
+}
+
+.dropdownStateCheckbox:checked~.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 17px;
+  left: auto;
+  top: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.font-weight-normal {
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pagination {
+  margin: 0;
+}
+
+.pagingContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 58px;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+.containerAmountOfRows {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.containerAllPages{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.reposition {
+  position: static;
+  margin-left: 8px;
+}
+
+.custom-select {
+  width: 110px;
+  margin-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+  .containerAmountOfRows, .containerAllPages {
+    display: none;
+  }
+}

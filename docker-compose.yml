@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  gluecodes_dashboards:
+    build: .
+    container_name: gluecodes_dashboards
+    command: "npm start"
+    volumes:
+      - .:/src/gluecodes-dashboards:rw
+      - /src/gluecodes-dashboards/node_modules
+    ports:
+      - "3636:3636"
+    env_file:
+      - .env
