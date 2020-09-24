@@ -3,3 +3,5 @@ export { default as changeRecordListPageSize } from './changeRecordListPageSize/
 export { default as deleteListRecord } from './deleteListRecord/index.ast'
 export { default as registerClickAway } from './registerClickAway/index'
 export { default as setUrlQueryParam } from './setUrlQueryParam/index'
+export { default as setPageSearchTerm } from './setPageSearchTerm/index'
+export { default as submitPageSearch } from './submitPageSearch/index'
